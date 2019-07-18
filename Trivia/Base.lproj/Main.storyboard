@@ -59,11 +59,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score = 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lex-GB-FNF">
+                                <rect key="frame" x="16" y="626" width="79" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mgk-eZ-Ofx">
                                 <rect key="frame" x="16" y="287" width="290" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" red="0.32361698150000001" green="0.55902051929999996" blue="0.68421262500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -73,6 +81,7 @@
                     <connections>
                         <outlet property="endOfGameMessageLabel" destination="8PK-rj-Pc8" id="11V-o5-IWu"/>
                         <outlet property="questionLabel" destination="Hsa-nO-CfV" id="Ziw-4k-eh8"/>
+                        <outlet property="scoreLabel" destination="lex-GB-FNF" id="3Pm-rZ-Szh"/>
                         <outlet property="userAnswerTextField" destination="Mgk-eZ-Ofx" id="QgO-H6-yLR"/>
                         <outlet property="validationLabel" destination="6ey-Un-EQy" id="j77-9r-iI5"/>
                     </connections>
